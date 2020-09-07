@@ -1,15 +1,13 @@
 package filesorter;
 
 /**
-  * This QuickSort routine has been taken from the ArraySorter java file, which 
-  * was in the 'chapter3' zip file on Blackboard. The assignment brief says I 
-  * can use an existing class for the quick sort routine, which is what this 
-  * class is.
+  * This QuickSort routine has been taken from an Auckland 
+  * University of Technology (AUT) resource.
   * 
-  * @author Ryan Herkt (ID: 18022861) (original author: sehall/Andrew Ensor)
+  * @author Ryan Herkt (ID: 18022861) 
+  * @author Andrew Ensor, Seth Hall (original)
   * @param <E>
   */
-
 public class QuickSort<E extends Comparable>
 {
     public void quickSort(E[] list)
